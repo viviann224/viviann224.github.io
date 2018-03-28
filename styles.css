@@ -7,8 +7,18 @@ h1
 
   font-weight: bold;
 }
+.mdl-card_media
+{
+  background-color: none !important;
+  border:0 !important;
+}
+.article-image
+{
+  height: 100% !important ; 
+  width: 100% !important; 
+  object-fit: contain !important;
 
-
+}
 
 .clearfix::after {
     content: "";
