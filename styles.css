@@ -70,6 +70,20 @@ h1
   margin: auto auto 0px;
 }
 
+/*technologies styling*/
+#technologies
+{
+  margin-top:4px;
+  margin-top:1px;
+  padding-bottom: 2px;
+  text-align:right;
+}
+#icon
+{
+  margin:2px;
+  height:20px;
+}
+
 
 
 .is-compact .portfolio-logo {
@@ -204,6 +218,9 @@ h1
 .portfolio-contact .mdl-textfield {
   width: 100%;
 }
+
+
+
 
 .portfolio-contact form {
   max-width: 550px;
