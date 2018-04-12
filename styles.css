@@ -4,9 +4,12 @@ body
 }
 
 h1
-
+{
   font-weight: bold;
 }
+
+
+
 .mdl-card_media
 {
   background-color: none !important;
@@ -146,6 +149,11 @@ h1
   left: 15%;
 }
 
+/*buttons below portfolio*/
+.mdl-card__actions .mdl-card--border
+{
+  text-align: center !important;
+}
 .portfolio-card .mdl-card__title {
   padding-bottom: 0;
 }
