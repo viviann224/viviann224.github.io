@@ -108,16 +108,29 @@ h1
 
 }
 
-.portfolio-navigation-row .mdl-navigation__link {
+.portfolio-navigation-row 
+.mdl-navigation__link 
+{
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
   line-height: 42px;
-  color:white;
+  color:white !important;
   font-weight: bold;
 
 
 }
+
+
+
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link 
+{
+  color: white !important;
+  font-weight: bold !important;
+}
+
+
 /*menu button*/
 .portfolio-header .mdl-layout__drawer-button {
     background-color: #9e9e9e/*rgba(197, 197, 197, 0.44)*/;
@@ -125,7 +138,7 @@ h1
 .mdl-layout__drawer, .mdl-layout--small-screen-only, .is-visible
 {
   background-color: #cdcdcd;
-  border-right: 6px solid #9e9e9e;
+  border-right:  2px solid #9e9e9e;
 
 }
 
@@ -235,6 +248,33 @@ h1
   margin: auto;
 }
 
+.cardContact {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.cardContact:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+.material-icons
+{
+  font-size:50px !important;
+}
+
+.containerContact {
+    padding: 2px 16px;
+}
+
+.contactInfo
+{
+  text-align: center;
+}
 .mdl-mini-footer
 {
   background-color: #4d4d4d;
