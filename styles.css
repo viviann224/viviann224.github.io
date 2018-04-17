@@ -288,6 +288,13 @@ img {
     border-radius: 5px 5px 0 0;
 }
 
+span
+{
+  font-size:9px;
+  margin:1px;
+  padding:0px;
+}
+
 .responsive-img
 {
   text-align: center !important;
@@ -322,6 +329,7 @@ img {
   background-color: #4d4d4d;
   color:#ffffff;
   padding:5px;
+  font-size:12px;
 }
 .mdl-logo
 {
