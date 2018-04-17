@@ -284,6 +284,16 @@ h1
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.link
+{
+  text-align: center;
+}
+.type
+{
+  margin-top:-2px;
+  padding:5px;
+  font-weight: bold;
+}
 img {
     border-radius: 5px 5px 0 0;
 }
