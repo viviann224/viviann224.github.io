@@ -118,6 +118,7 @@ h1
   line-height: 42px;
   color:white !important;
   font-weight: bold;
+  transition: all 0.2s linear;
 
 
 }
