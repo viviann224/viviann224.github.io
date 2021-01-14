@@ -31,6 +31,16 @@ body{
   font-family: "Roboto", sans-serif;
 }
 
+.carousel-control-prev-icon ,
+.carousel-control-next-icon
+{
+  background-color: #555; 
+  opacity: 0.5;
+}
+.modal-header{
+ border-bottom:0px;
+}
+
 .hovereffect {
   width: 100%;
   height: 100%;
