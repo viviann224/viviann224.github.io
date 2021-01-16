@@ -1,8 +1,9 @@
-document.querySelector(".info").addEventListener('shown.bs.modal', function () {
-  document.querySelector(".modal-dialog").focus()
-})
+// document.querySelector(".info").addEventListener('shown.bs.modal', function () {
+//   document.querySelector(".modal-dialog").focus()
+// })
 const project=[
   {
+    icons:["fa-php", "fa-html5","fa-css3"],
     img:["abr-1.jpg","abr-2.jpg","abr-3.jpg","abr-4.jpg","abr-5.jpg","abr-6.jpg"],
     modalName:"exampleModal",
     name: "abr",
@@ -14,7 +15,80 @@ const project=[
     tech: "PHP",
     position: "Front-end Developer",
     date: "2020"
-  }
+  },
+  {
+    icons:["fa-php", "fa-html5","fa-css3"],
+    img:["pawit-1.jpg","pawit-2.jpg","pawit-3.jpg","pawit-4.jpg"],
+    modalName:"pawitModal",
+    name: "pawit",
+    carousel:"pawitcarousel",
+    appName: "PAW IT FORWARD",
+    desc: "over 50 donors, over $2,000, and the event is still ongoing",
+    date: "2020",
+    url:"https://austinbulldogrescue.com/paw-it-forward/",
+    tech: "PHP",
+    position: "Front-end Developer",
+    date: "2020"
+  },
+  {
+    icons:["fa-php", "fa-html5","fa-css3"],
+    img:["babyshower-1.jpg","babyshower-2.jpg","babyshower-3.jpg","babyshower-4.jpg"],
+    modalName:"shower",
+    name: "shower",
+    carousel:"showercarousel",
+    appName: "Virtual Baby Shower",
+    desc: "Over $1,200 & continous care for of supplies ($250/ week) of supplies. on going event",
+    date: "2020",
+    url:"https://austinbulldogrescue.com/bellas-virtual-baby-shower/",
+    tech: "PHP",
+    position: "Front-end Developer",
+    date: "2020"
+  },
+  {
+    icons:["fa-react", "fa-html5","fa-css3"],
+    img:["abrresource-1.jpg","abrresource-2.jpg"],
+    modalName:"resource",
+    name: "resource",
+    carousel:"resourcecarousel",
+    appName: "Austin Bulldog Resources",
+    desc: "Over $1,200 & continous care for of supplies ($250/ week) of supplies. on going event",
+    date: "2020",
+    url:"https://austinbulldogrescue.herokuapp.com/",
+    git:"https://github.com/viviann224/abrcuddlypups",
+    tech: "React",
+    position: "React Developer",
+    date: "2020"
+  },
+  {
+    icons:["fa-node-js", "fa-html5","fa-css3"],
+    img:["allerjeeves-1.jpg","allerjeeves-2.jpg","allerjeeves-3.jpg","allerjeeves-4.jpg"],
+    modalName:"allerjeeves",
+    name: "resource",
+    carousel:"allerjeevescarousel",
+    appName: "Aller-Jeeves",
+    desc: "Over $1,200 & continous care for of supplies ($250/ week) of supplies. on going event",
+    date: "2020",
+    url:"https://allerjeeves.herokuapp.com/",
+    git:"https://github.com/viviann224/AllerJeeves",
+    tech: "NodeJS",
+    position: "Full Stack Developer",
+    date: "2020"
+  },
+  {
+    icons:["fa-php", "fa-html5","fa-css3"],
+    img:["austineats-01.jpg","austineats-02.jpg","austineats-03.jpg","austineats-1.jpg","austineats-2.jpg","austineats-3.jpg"],
+    modalName:"austineats",
+    name: "austineats",
+    carousel:"austineatscarousel",
+    appName: "Austin Eats",
+    desc: "Over $1,200 & continous care for of supplies ($250/ week) of supplies. on going event",
+    date: "2020",
+    url:"https://allerjeeves.herokuapp.com/",
+    git:"https://github.com/viviann224/AllerJeeves",
+    tech: "PHP",
+    position: "Full Stack Developer",
+    date: "2020"
+  },
 
 ];
 
@@ -104,23 +178,6 @@ function makeModal(){
     span4.setAttribute("class","visually-hidden");
     span4.textContent="Next";
 
-
-
-
-
-
-    // d2.appendChild(d4)
-    // d1.appendChild(d2)
-    // d3.appendChild(d4)
-    //   d4.appendChild(d5)
-    //
-
-    //
-    //
-    //
-    //   d6.appendChild(d7)
-    //   d5.appendChild(d6);
-    // console.log(d1)
     document.querySelector(".modalArea").appendChild(d1);
     d1.appendChild(d2);
     d2.appendChild(d3)
@@ -157,8 +214,7 @@ function makeModal(){
     let li1 = document.createElement("li");
     li1.setAttribute("class","info-facts")
     li1.innerHTML="<span>Position</span> "+project[projNum].position;
-    // let span5=document.createElement("span");
-    // span5.textContent=project[projNum].date;
+
     let li2 = document.createElement("li");
     li2.setAttribute("class","info-facts")
     li2.innerHTML="<span>Tech</span> "+project[projNum].tech;
@@ -166,13 +222,11 @@ function makeModal(){
     let li3 = document.createElement("li");
     li3.setAttribute("class","info-facts")
     li3.innerHTML="<span>Date</span> "+project[projNum].date;
-    let a3 = document.createElement("a3");
+    let a3 = document.createElement("a");
     let btn2 = document.createElement("button");
     btn2.setAttribute("class","btn btn-primary info hovereffect");
     btn2.textContent="Visit Project";
-    btn2.setAttribute("href","")
-
-
+    a3.setAttribute("href",project[projNum].url)
 
     d7.appendChild(d11);
     d11.append(d12)
@@ -187,58 +241,70 @@ function makeModal(){
 
       d12.appendChild(a3);
       a3.appendChild(btn2)
+      if(project[projNum].git){
+        let a4 = document.createElement("a");
+        let btn3 = document.createElement("button");
+        btn3.setAttribute("class","btn btn-primary info hovereffect");
+        btn3.textContent="View Code";
+        a4.setAttribute("href",project[projNum].git);
+        d12.appendChild(a4);
+        a4.appendChild(btn3);
 
-     // d12.appendChild(d14)
+      }
 
   }
 
 }
 
 function createProject(){
-	let d1 = document.createElement("div");
-	d1.setAttribute("class","col-lg-4 col-md-6 col-sm-6 col-xs-12  mb-3 mt-3 text-center");
+  for(let projNum=0;projNum<project.length;projNum++){
 
-	let d2 = document.createElement("div");
-	d2.setAttribute("class","hovereffect");
+  	let d1 = document.createElement("div");
+  	d1.setAttribute("class","col-lg-4 col-md-6 col-sm-6 col-xs-12  mb-3 mt-3 text-center");
 
-	let img =document.createElement("img");
-	img.setAttribute("class","img-responsive w-100")
-	img.setAttribute("src","./portfolio/assets/img/abr-1.jpg");
+  	let d2 = document.createElement("div");
+  	d2.setAttribute("class","hovereffect");
 
-	let d3 = document.createElement("div");
-	d3.setAttribute("class","overlay");
+  	let img =document.createElement("img");
+  	img.setAttribute("class","img-responsive w-100")
+  	img.setAttribute("src","./portfolio/assets/img/"+project[projNum].img[0]+"");
 
-	let h2 = document.createElement("h2");
-	h2.textContent="Austin Bulldog Rescue";
+  	let d3 = document.createElement("div");
+  	d3.setAttribute("class","overlay");
 
-	let p1 = document.createElement("p");
-	p1.setAttribute("id", "card-desc");
-	p1.textContent="Front-End Developer";
+  	let h2 = document.createElement("h2");
+  	h2.textContent=project[projNum].appName;
 
-	let p2 = document.createElement("p");
-	p2.setAttribute("id","card-hover");
-	for(let i=0;i<3;i++){
-		let iel =document.createElement("i");
-		iel.setAttribute("class","fab fa-php");
-		if(i<3-1){
-			iel.textContent+="  |  ";
-		}
-		p2.append(iel)
-	}
-	let a = document.createElement("a");
-	a.setAttribute("class","info btn btn-primary");
-	a.setAttribute("data-bs-toggle","modal");
-	a.setAttribute("data-bs-target","#exampleModal");
-	a.textContent="Learn More";
-	d3.appendChild(h2);
-	d3.appendChild(p1);
-	d3.appendChild(p2);
-	d3.appendChild(a);
-	d2.appendChild(img);
-	d2.appendChild(d3);
-	d1.appendChild(d2);
+  	let p1 = document.createElement("p");
+  	p1.setAttribute("id", "card-desc");
+  	p1.textContent=project[projNum].position;
 
-	document.querySelector(".projects").appendChild(d1)
+  	let p2 = document.createElement("p");
+  	p2.setAttribute("id","card-hover");
+  	for(let i=0;i<project[projNum].icons.length;i++){
+  		let iel =document.createElement("i");
+  		iel.setAttribute("class","fab "+project[projNum].icons[i]);
+  		if(i<3-1){
+  			iel.textContent+="  |  ";
+  		}
+  		p2.append(iel)
+  	}
+  	let a = document.createElement("a");
+  	a.setAttribute("class","info btn btn-primary");
+  	a.setAttribute("data-bs-toggle","modal");
+  	a.setAttribute("data-bs-target","#"+project[projNum].modalName);
+  	a.textContent="Learn More";
+  	d3.appendChild(h2);
+  	d3.appendChild(p1);
+  	d3.appendChild(p2);
+  	d3.appendChild(a);
+  	d2.appendChild(img);
+  	d2.appendChild(d3);
+  	d1.appendChild(d2);
+
+  	document.querySelector(".projects").appendChild(d1)
+
+  }
 }
 createProject();
 makeModal();
