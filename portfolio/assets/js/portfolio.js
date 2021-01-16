@@ -6,7 +6,10 @@ const project=[
     img:["abr-1.jpg","abr-2.jpg","abr-3.jpg","abr-4.jpg","abr-5.jpg","abr-6.jpg"],
     modalName:"exampleModal",
     name: "abr",
-    carousel:"abrcarousel"
+    carousel:"abrcarousel",
+    appName: "Austin Bulldog Rescue",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut sapiente quo explicabo, quasi incidunt aperiam laudantium, nemo cum eaque inventore ut voluptas voluptatibus nihil! Amet soluta, ea illo sint?",
+    date: "Blah"
   }
 
 ];
@@ -53,7 +56,7 @@ for(let projNum=0; projNum<project.length; projNum++){
 
 
   let d10 = document.createElement("div");
-  d10.setAttribute("class","carousel-inner"+projNum);
+  d10.setAttribute("class","carousel-inner");
   for(let i=0;i<project[projNum].img.length;i++){
     let d=document.createElement("div");
     d.setAttribute("class","carousel-item");
@@ -93,26 +96,88 @@ for(let projNum=0; projNum<project.length; projNum++){
   span4.setAttribute("class","visually-hidden");
   span4.textContent="Next";
 
-  // d9.appendChild(d10);
-  // d9.appendChild(a1);
-  // d9.appendChild(span1);
-  // d9.appendChild(span2);
-  // d9.appendChild(a2);
-  // d9.appendChild(span3);
-  // d9.appendChild(span4);
+
+
+
+
+
+  // d2.appendChild(d4)
+  // d1.appendChild(d2)
+  // d3.appendChild(d4)
+  //   d4.appendChild(d5)
   //
-  // d8.appendChild(d9);
-  // d7.appendChild(d8);
-  // d6.appendChild(d7)
-  // d5.appendChild(d6);
-  // d4.appendChild(d5)
-  d3.appendChild(d4)
+
+  //
+  //
+  //
+  //   d6.appendChild(d7)
+  //   d5.appendChild(d6);
+  // console.log(d1)
+  document.querySelector(".modalArea").appendChild(d1);
+  d1.appendChild(d2);
   d2.appendChild(d3)
   d3.appendChild(d4);
-  d2.appendChild(d4)
-  d1.appendChild(d2)
-  console.log(d1)
-  document.querySelector(".modalArea").appendChild(d1)
+  d4.appendChild(btn);
+  d3.appendChild(d5);
+  d5.appendChild(d6)
+  d6.appendChild(d7);
+  d7.appendChild(d8);
+  d8.appendChild(d9);
+  d9.appendChild(d10);
+  d9.appendChild(a1);
+  d9.appendChild(span1);
+  d9.appendChild(span2);
+  d9.appendChild(a2);
+  d9.appendChild(span3);
+  d9.appendChild(span4);
+  //sec col
+  let d11 = document.createElement("div");
+  d11.setAttribute("class","col-12 col-lg-7")
+  let d12 = document.createElement("div");
+  d12.setAttribute("class","portfolio-content")
+
+  let h3 = document.createElement("h3");
+  h3.textContent=project[projNum].appName;
+
+  let d13 = document.createElement("div");
+  d13.setAttribute("class","portfolio-desc");
+  let p = document.createElement("p");
+  p.textContent=project[projNum].desc;
+  let ul = document.createElement("ul");
+  let li1 = document.createElement("li");
+  li1.setAttribute("class","info-facts")
+  //li1.innerHTML("<span>Date</span> Blah")
+  // let span5=document.createElement("span");
+  // span5.textContent=project[projNum].date;
+  let li2 = document.createElement("li");
+  li2.setAttribute("class","info-facts")
+  let li3 = document.createElement("li");
+  li3.setAttribute("class","info-facts")
+  let a3 = document.createElement("a3");
+  let btn2 = document.createElement("button");
+
+
+
+
+
+
+
+  d7.appendChild(d11);
+  d11.append(d12)
+   d12.appendChild(h3);
+   d12.appendChild(d13);
+   d13.appendChild(p);
+   d12.appendChild(ul);
+
+   ul.appendChild(li1);
+   ul.appendChild(li2);
+   ul.appendChild(li3);
+
+    d12.appendChild(a3);
+    a3.appendChild(btn2)
+
+   // d12.appendChild(d14)
+
 
 }
 
