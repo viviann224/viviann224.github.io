@@ -215,9 +215,9 @@ span{
 }
 /* work together area*/
 #worktogether-area{
-  margin:0em 0;
-	padding: 0em 0;
- width: 100%;
+  /* margin:0em 0;
+	padding: 0em 0; */
+ /* width: 100%; */
  background-blend-mode: darken, luminosity;
 background-color: #f3f3f3;
 background-repeat: no-repeat;
