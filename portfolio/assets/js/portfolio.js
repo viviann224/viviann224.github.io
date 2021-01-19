@@ -279,6 +279,7 @@ function createProject(){
 
   	let h2 = document.createElement("h2");
   	h2.textContent=project[projNum].appName;
+    h2.setAttribute("id","project-h2");
 
   	let p1 = document.createElement("p");
   	p1.setAttribute("id", "card-desc");
