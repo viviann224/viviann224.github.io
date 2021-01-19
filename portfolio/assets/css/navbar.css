@@ -33,6 +33,10 @@ body {
   .sidebar {
     top: 1rem;
   }
+
+  .about-img{
+  	width: 60%;
+  }
 }
 
 @media(max-width:375px){

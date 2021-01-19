@@ -9,11 +9,18 @@
 }
 
 .sections-wrapper{
-	background-color: yellow;
+	background-color: #fff;
 		padding:0px;
 		margin-top: 0px;
 
 
+}
+#bg-light{
+	background-color: #fff!important;
+}
+
+.gray-bg{
+	background-color: #f3f3f3 !important;
 }
 .container{
 
@@ -32,6 +39,12 @@ body{
 }
 
 /*about*/
+#about-area {
+
+}
+.about-img{
+	width: 30%;
+}
  .avatar{
 
 	vertical-align: middle;
@@ -183,11 +196,11 @@ span{
 
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #fff;
-  background-color: #006064;
+  background-color: #607d8b;
 
 }
 .fa-dollar-sign{
-  color:#006064 !important;
+  color:#607d8b !important;
 }
 
 .hovereffect:hover a.info {
@@ -207,6 +220,8 @@ span{
  width: 100%;
  background-blend-mode: darken, luminosity;
 background-color: #f3f3f3;
+background-repeat: no-repeat;
+  background-attachment: fixed;
 
  /* color:#fff */
 }
@@ -215,9 +230,7 @@ background-color: #f3f3f3;
 	z-index: 100;
 }
 /*contact area*/
-.contact-area{
-	background-color: #f3f3f3;
-}
+
 
 /*footer*/
 footer
