@@ -1,6 +1,11 @@
 // document.querySelector(".info").addEventListener('shown.bs.modal', function () {
 //   document.querySelector(".modal-dialog").focus()
 // })
+
+function navToggle()
+{document.querySelector("#sidebarMenu").removeAttribute("class");
+document.querySelector("#sidebarMenu").setAttribute("class","col-md-3 col-lg-2 d-md-block bg-light sidebar collapse");
+};
 const project=[
   {
     icons:["fa-php", "fa-html5","fa-css3"],

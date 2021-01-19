@@ -8,6 +8,9 @@ body {
   vertical-align: text-bottom;
 }
 
+.sticky-top{
+  top:1em;
+}
 /*
  * Sidebar
  */
@@ -28,8 +31,26 @@ body {
 
 @media (max-width: 767.98px) {
   .sidebar {
-    top: 5rem;
+    top: 1rem;
   }
+}
+
+@media(max-width:375px){
+  .nav-avatar{
+
+  	vertical-align: middle;
+  	  /* width: 50px; */
+  	  height: 100px;
+  	  border-radius: 50%;
+  }
+}
+
+.nav-avatar{
+  vertical-align: middle;
+   border-radius: 50%;
+   box-shadow: 0 8px 6px -6px black;
+
+
 }
 
 .sidebar-sticky {
@@ -78,8 +99,10 @@ body {
 }
 
 .navbar .navbar-toggler {
-  top: .25rem;
+  top: 1rem;
   right: 1rem;
+  padding:.7em;
+  background-color: rgba(0, 0, 0, .7);
 }
 
 .navbar .form-control {
