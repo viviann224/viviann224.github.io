@@ -139,6 +139,17 @@ body {
 
 
 }
+#mobile-header{
+  font-size: .9em;
+  margin-top:2em;
+  margin-left:3em;
+
+}
+
+#availability{
+  margin-left:6em;
+  font-size: .7em;
+}
 
 #availability{
   color:gray;
