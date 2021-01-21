@@ -18,34 +18,20 @@
    <body>
 
       <header class="navbar navbar-light sticky-top flex-md-nowrap" id="top-nav">
-        <!-- <a class="col-md-3 col-lg-2 px-3" href="#"><img src="./portfolio/assets/img/logo-32.png">
-      Vivian Tuong Nguyen</a> -->
       <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search"> -->
-      <!-- <ul class="navbar-nav px-3">
-      <li class="nav-item text-nowrap">
-        <a class="nav-link" href="#">Sign out</a>
-      </li>
-      </ul> -->
       </header>
 <div class="container-fluid">
   <div class="row">
     <div id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-
-
           <span><img src="./portfolio/assets/img/aboutme-img-avatar.jpg" class="img-fluid d-flex justify-content-between align-items-center mt-4 ms-5 mb-3 text-muted nav-avatar border-4 border-dark shadow"></span>
           <span id="mobile-header">Vivian Nguyen <img src="./portfolio/assets/img/logo-32.png" class="img-fluid logo"></span>
           <br><span id="availability">Available for work</span></br>
-
-
         <h6 class="sidebar-heading d-flex justify-content-between align-items-center mt-1 mb-1 text-muted">
-
-
         </h6>
         <ul class="list-unstyled list-menu ms-5">
-            <!-- <li>  <span data-feather="plus-circle">Home</span></li> -->
+            <li><a class="nav-link" href="#cover-area" data-scroll onclick="navToggle()"><strong>Home</strong></a></li>
             <li><a class="nav-link" href="#about-area" data-scroll onclick="navToggle()">About</a></li>
             <li><a class="nav-link" href="#services-area" data-scroll onclick="navToggle()">Services</a></li>
             <li><a class="nav-link" href="#portfolio-area" data-scroll onclick="navToggle()">Portfolio</a></li>
@@ -65,8 +51,6 @@
               <h2 class="home-name clip home-headline">I’m a
                 <b class="is-visible"><span class="cd-words-wrapper single-headline txt-rotate" data-period="500"
                 data-rotate='[ "Developer.", "Designer.", "Teammate."]'>
-
-
                 </span></b>
               </h2>
             </div><a href="#about-area" data-scroll>
@@ -124,56 +108,64 @@
 
       <!-- Services-->
       <section class="single-section  services-area  " id="bg-light">
-        <div class="container pt-4 pb-4" id="services-area">
+        <div class="container pt-5 pb-5" id="services-area">
           <div class="row">
             <div class="col-12">
-              <div class="section-heading">
+              <div class="section-heading ">
                 <h2 class="section-title">My Services</h2>
-                <p class="section-description">Services i offer to my clients</p>
+                <p class="section-description mb-3">How I can help you</p>
               </div>
             </div>
           </div>
           <div class="row">
             <!-- Single service-->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="single-service"><i class="icon service-icon ion-logo-css3"></i>
-                <h6 class="service-title">Design Trends</h6>
-                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <div class="service-card shadow">
+                <i class="fas fa-desktop footer-icon fa-2x"></i>
+                <h5>Web Development</h5>
+                <p>As a full-stack developer I can develop beautiful MERN applications and hone in on the front or backend.</p>
               </div>
             </div>
             <!-- Single service-->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="single-service"><i class="icon service-icon ion-md-images"></i>
-                <h6 class="service-title">PSD Design</h6>
-                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <div class="service-card shadow">
+                <i class="fas fa-expand-arrows-alt footer-icon fa-2x"></i>
+                <h5>Responsivness</h5>
+                <p>I focus on a product that is clean and mobile responsive.</p>
+              </div>
+            </div>
+
+            <!-- Single service-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="service-card shadow">
+                <i class="fas fa-hands-helping footer-icon fa-2x"></i>
+                <h5>Customer Support</h5>
+                <p>Not too sure how to translate what you want? I am a great liason to get you closer to your final product</p>
+              </div>
+            </div>
+
+            <!-- Single service-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="service-card shadow">
+                <i class="fas fa-paint-brush footer-icon fa-2x"></i>
+                <h5>Design</h5>
+                <p>I want to fine tune your brand with purpose. Every design concept focuses on different intentions.</p>
               </div>
             </div>
             <!-- Single service-->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="single-service"><i class="icon service-icon ion-logo-ionic"></i>
-                <h6 class="service-title">Customer Support</h6>
-                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <div class="service-card shadow">
+                <i class="fas fa-comments-dollar footer-icon fa-2x"></i>
+                <h5>Marketing</h5>
+                <p>I drive the marketing strategy by data to determine how to promote your product.</p>
               </div>
             </div>
             <!-- Single service-->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="single-service mb-lg-0"><i class="icon service-icon ion-logo-wordpress"></i>
-                <h6 class="service-title">Web Development</h6>
-                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <!-- Single service-->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="single-service mb-md-0"><i class="icon service-icon ion-md-move"></i>
-                <h6 class="service-title">Fully Responsive</h6>
-                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <!-- Single service-->
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="single-service mb-0"><i class="icon service-icon ion-ios-rocket"></i>
-                <h6 class="service-title">Branding</h6>
-                <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <div class="service-card shadow">
+                <i class="fas fa-images footer-icon fa-2x"></i>
+                <h5>Photo Editor</h5>
+                <p>Graphics for a product can be confusing. Just give me photos and I can do the rest.</p>
               </div>
             </div>
           </div>
@@ -200,7 +192,7 @@
                 <div class="col-12">
                   <div class="section-heading ms-3">
                     <h2>Portfolio</h2>
-                    <p>Hover and click on "learn more to see my work in motion"</p>
+                    <p>Hover and click on "learn more" to see my work in motion</p>
                   </div>
                 </div>
               </div>
@@ -212,8 +204,6 @@
           <!-- Contact-->
           <section class="contact-area alt-bg gray-bg pt-4 pb-4 " id="contact-area">
             <div class="container gray-bg">
-
-
               <div class="row">
                 <div class="col-12">
                   <div class="section-heading">
@@ -224,23 +214,13 @@
                 </div>
               </div>
 
-              <div class="row contact-info">
-                <div class="col-12">
-                  <!-- <div class="section-heading">
-                    <h2 class="section-title">Reach Out</h2>
-
-                  </div> -->
-                </div>
-
+              <div class="row contact-info mb-3">
                   <div class="col-12 col-sm-4 text-center">
                   <div class="single-info  text-center"><i class="info-icon icon ion-md-map"></i>
                     <p class="info-content">
                       <i class="footer-icon  fas fa-user fa-2x "></i>
-
-
                        <br><h5>Vivian Nguyen</h5>
                        Software Developer
-
                     </p>
                   </div>
                 </div>
@@ -269,7 +249,6 @@
                   </div>
                 </div>
               </div>
-
               <div class="row ">
                 <!-- Contact form-->
                 <div class="col-12">
@@ -286,28 +265,22 @@
                   </form>
                 </div>
               </div>
-
-
             </div>
           </section>
 
           <!-- Footer-->
           <footer class="footer-area shadow-down ">
             <div class="container">
-
               <div class="row mini-footer">
                 <p class="copyright-notice col-12 col-lg-9"> © 2021 Vivian Tuong Nguyen, all rights reserved.</p>
-
                 <p class="social-medias col-12 col-lg-3 text-right">
                   <a class="btn btn-light shadow btn-sm" href="#"><i class="fab fa-instagram"></i></a>
                   <a class="btn btn-light shadow btn-sm" href="#"><i class="fab fa-linkedin-in"></i></a>
                   <a class="btn btn-light btn-sm shadow" href="#"><i class="fab fa-github-alt"></i></a>
                     </p>
-
               </div>
             </div>
           </footer>
-
     </main>
   </div>
 </div>
@@ -316,9 +289,6 @@
     </div>
     <!--end of row -->
   </div>
-
-
-
     </div>
   </div>
 

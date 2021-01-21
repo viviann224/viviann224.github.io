@@ -144,6 +144,17 @@ body{
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
+
+/*services*/
+.service-card{
+	border: 1px solid #ebeced;
+	padding:38px 24px;
+	margin-bottom: 3em;
+background-color: #f8f9fa;
+	text-align: center;
+	opacity: .9;
+	transition: :all .15s ease-out;
+}
 h1{
 
   margin:1em 0;
