@@ -178,27 +178,7 @@ span{
   width:50%;
 }*/
 
-.hovereffect a.info {
-  display: inline-block;
-  text-decoration: none;
-  padding: 7px 14px;
-  text-transform: uppercase;
-/*  margin: 50px 0 0 0;*/
-  background-color: transparent;
-  -webkit-transform: translateY(-200px);
-  -ms-transform: translateY(-200px);
-  transform: translateY(-200px);
-  color: #000;
-  border: 1px solid #000;
-  -webkit-transition: all ease-in-out 0.3s;
-  transition: all ease-in-out 0.3s;
-}
 
-.hovereffect a.info:hover {
-  box-shadow: 0 0 5px #fff;
-  background-color: #607d8b;
-
-}
 .fa-dollar-sign{
   color:#607d8b !important;
 }
@@ -274,6 +254,8 @@ color: white;
 }
 .home-name span{
 	color:#607d8b;
+	margin:0em;
+	font-weight: 800;
 }
 .shadow-down{
 	box-shadow: 0px 0 5px rgba(0, 0, 0, 0.8);

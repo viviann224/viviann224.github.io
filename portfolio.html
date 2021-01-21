@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <title>Vivian Tuong Nguyen Portfolio</title>
+      <title>Vivian Nguyen Portfolio</title>
       <meta name="description" content="Vivian Tuong Nguyen Software Developer from Austin, Texas who builds applications to foster local businesses.">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!--Favicons -->
@@ -17,7 +17,7 @@
    </head>
    <body>
 
-      <header class="navbar navbar-light sticky-top flex-md-nowrap  ">
+      <header class="navbar navbar-light sticky-top flex-md-nowrap" id="top-nav">
         <!-- <a class="col-md-3 col-lg-2 px-3" href="#"><img src="./portfolio/assets/img/logo-32.png">
       Vivian Tuong Nguyen</a> -->
       <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@
 
 
           <span><img src="./portfolio/assets/img/aboutme-img-avatar.jpg" class="img-fluid d-flex justify-content-between align-items-center mt-4 ms-5 mb-3 text-muted nav-avatar border-4 border-dark shadow"></span>
-          <span id="mobile-header">Vivian Tuong Nguyen <img src="./portfolio/assets/img/logo-32.png" class="img-fluid logo"></span>
+          <span id="mobile-header">Vivian Nguyen <img src="./portfolio/assets/img/logo-32.png" class="img-fluid logo"></span>
           <br><span id="availability">Available for work</span></br>
 
 
@@ -47,6 +47,7 @@
         <ul class="list-unstyled list-menu ms-5">
             <!-- <li>  <span data-feather="plus-circle">Home</span></li> -->
             <li><a class="nav-link" href="#about-area" data-scroll onclick="navToggle()">About</a></li>
+            <li><a class="nav-link" href="#services-area" data-scroll onclick="navToggle()">Services</a></li>
             <li><a class="nav-link" href="#portfolio-area" data-scroll onclick="navToggle()">Portfolio</a></li>
             <li><a class="nav-link" href="#contact-area" data-scroll onclick="navToggle()">Contact</a></li>
           </ul>
@@ -61,7 +62,13 @@
           <div class="row h-100 align-items-center justify-content-center">
             <div class="col-12 col-lg-8 home-content text-center">
               <h1 class="home-name">Vivian <span>Nguyen <img src="./portfolio/assets/img/cover-logo.png" class="img-fluid "></span></h1>
-              <h4 class="home-name clip home-headline">I’m a <span class="cd-words-wrapper single-headline"><b class="is-visible">Developer</b><b>Designer</b></span></h4>
+              <h2 class="home-name clip home-headline">I’m a
+                <b class="is-visible"><span class="cd-words-wrapper single-headline txt-rotate" data-period="500"
+                data-rotate='[ "Developer.", "Designer.", "Teamate."]'>
+
+
+                </span></b>
+              </h2>
             </div><a href="#about-area" data-scroll>
               <div class="home-mouse">
                 <div class="mouse-shape">
@@ -89,7 +96,7 @@
             <div class="col-12 col-lg-7 about-content ">
               <div class="content-block">
                 <h2 class="content-subtitle">Who am i?</h2>
-                <h6 class="content-title">I'm Vivian Tuong Nguyen, a visual UX/UI Designer and Web Developer</h6>
+                <h6 class="content-title">I'm Vivian Nguyen, a visual UX/UI Designer and Web Developer</h6>
                 <div class="content-description">
                   <p>I am a freelancer based in the United Kingdom and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
                 </div>
@@ -116,8 +123,8 @@
       </section>
 
       <!-- Services-->
-      <section class="single-section  services-area mt-4 mb-4 " id="services-area bg-light">
-        <div class="container">
+      <section class="single-section  services-area  " id="bg-light">
+        <div class="container pt-4 pb-4" id="services-area">
           <div class="row">
             <div class="col-12">
               <div class="section-heading">
@@ -277,7 +284,9 @@
   </div>
 
       <!--JS files-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
       <script src="./portfolio/assets/js/portfolio.js" ></script>
+      <script src="./portfolio/assets/js/animation.js" ></script>
    </body>
 </html>
