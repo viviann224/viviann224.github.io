@@ -157,7 +157,7 @@ h3{
   font-weight: 700;
 }
 .portfolio-desc{
-	
+
     font-family: "Roboto Slab", sans-serif;
   line-height: 1.95;
   font-weight: 400;
@@ -268,9 +268,12 @@ background-repeat: no-repeat;
 
 }
 
-.cover-area{
+.home-name{
+color: white;
 
-
+}
+.home-name span{
+	color:#607d8b;
 }
 .shadow-down{
 	box-shadow: 0px 0 5px rgba(0, 0, 0, 0.8);
