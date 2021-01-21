@@ -47,6 +47,13 @@ hr{
 
 }
 
+.email-area{
+white-space: nowrap;
+}
+.email{
+	font-size:.8em;
+}
+
 .content-description{
 	line-height: 200%;
 }
