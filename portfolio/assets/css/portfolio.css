@@ -42,6 +42,10 @@ body{
 #about-area {
 
 }
+
+.about-area{
+
+}
 .about-img{
 	width: 30%;
 }
@@ -153,6 +157,7 @@ h3{
   font-weight: 700;
 }
 .portfolio-desc{
+	
     font-family: "Roboto Slab", sans-serif;
   line-height: 1.95;
   font-weight: 400;
@@ -239,6 +244,32 @@ background-repeat: no-repeat;
 	width:100%
 	opacity:.5;
 	/* height:5em; */
+
+}
+
+.cover-area{
+	background-position: center center;
+	 height: 100%;
+
+}
+
+.element-bg-cover{
+	background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.88)), url('../img/coverimg.jpg');
+	background-blend-mode: dodge;
+	background-position: center center;
+	height:100vh;
+	/* width:100%;
+	height: 100%; */
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+
+}
+
+.cover-area{
+
 
 }
 .shadow-down{
