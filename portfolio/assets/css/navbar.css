@@ -8,6 +8,7 @@ body {
   vertical-align: text-bottom;
 }
 
+
 .navbar{
   padding-top: 0em;
   padding-bottom: 0em;
@@ -75,6 +76,14 @@ height:0em;
 
 .aboutme-img{
   width:90%;
+}
+
+.blue-font{
+    color:#607d8b;
+}
+
+.gray-font{
+  color:#444444;
 }
 
 .footer-icon{
@@ -145,7 +154,7 @@ height:0em;
   }
 
   .sidebar {
-    top: 1rem;
+    top: 0rem;
   }
 
   #mobile-header{
