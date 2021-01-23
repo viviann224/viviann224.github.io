@@ -1,342 +1,302 @@
 <!doctype html>
 <html lang="en">
-<!--needs modal https://stackoverflow.com/questions/32078843/how-to-use-modal-pop-up-with-material-design-lite -->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Vivian Tuong Nguyen Software Developer from Austin, Texas who builds applications to foster local businesses.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Vivian Tuong Nguyen: Portfolio</title>
-    <link rel="icon" href="images/logo.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css" />
-    <link rel="stylesheet" href="styles.css" />
+   <head>
+      <meta charset="utf-8">
+      <title>Vivian Nguyen Portfolio</title>
+      <meta name="description" content="Vivian Tuong Nguyen Software Developer from Austin, Texas who builds applications to foster local businesses.">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--Favicons -->
+      <link rel ="icon" type="image/png" sizes="180x180" href="./assets/img/logo-apple-touch.png">
+      <link rel ="icon" type="image/png" sizes="32x32" href="./assets/img/logo-32.png">
+      <link rel ="icon" type="image/png" sizes="16x16" href="./assets/img/logo-16.png">
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+      <link href="./assets/css/portfolio.css" rel="stylesheet">
+      <link href="./assets/css/navbar.css" rel="stylesheet">
+   </head>
+   <body>
 
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-
-<body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
-            <div class="mdl-layout__header-row portfolio-logo-row">
-                <span class="mdl-layout__title">
-                    <div class="portfolio-logo" alt="Vivian Tuong Nguyen"></div>
-                    <span class="mdl-layout__title"></span>
-                </span>
-            </div>
-            <div class="textnav mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
-                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                    <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                    <!--<a class="mdl-navigation__link" href="blog.html">Blog</a> -->
-                    <a class="mdl-navigation__link" href="about.html">About</a>
-                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
-                </nav>
-            </div>
-        </header>
-        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
-                <!-- <a class="mdl-navigation__link" href="blog.html">Blog</a> -->
-                <a class="mdl-navigation__link" href="about.html">About</a>
-                <a class="mdl-navigation__link" href="contact.html">Contact</a>
-            </nav>
-        </div>
-        <main class="mdl-layout__content">
-            <div class="mdl-grid portfolio-max-width">
-
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/reactEats.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">ReactEats</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        reactEats is a food application created to find recipes from Recipe Puppy. 
-                    </div>
-                    <div id="technologies">
-                        <!-- <img src="images/icons/laravel.svg" id="icon"> -->
-                        <img src="images/icons/react.svg" id="icon">
-                            <img src="images/icons/bootstrap.svg" id="icon">
-                            <!-- <img src="images/icons/javascript.png" id="icon">  -->
-                              
-                            <img src="images/icons/photoshop.svg" id="icon">
-                            <img src="images/icons/heroku.png" id="icon">
-                            <!-- <img src="images/icons/mongodb.svg" id="icon"> 
-                            <img src="images/icons/mongodb.svg" id="icon">
-                            <img src="images/icons/sublime.png" id="icon"> -->
-                        </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <div class="link">
-                        <span>FULL-STACK</span>
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://reacteats2019.herokuapp.com/">View App</a>
-
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://github.com/viviann224/reactEats">GitHub</a>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/austinEats.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">AustinEats</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        AustinEats is web application shares information, personal experience, or tips at restaurants in the Austin location. 
-                    </div>
-                    <div id="technologies">
-                        <img src="images/icons/laravel.svg" id="icon">
-                        <img src="images/icons/html5.svg" id="icon">
-                            <img src="images/icons/bootstrap.svg" id="icon">
-                            <!-- <img src="images/icons/javascript.png" id="icon">  -->
-                              
-                            <img src="images/icons/photoshop.svg" id="icon">
-                            <img src="images/icons/heroku.png" id="icon">
-                            <!-- <img src="images/icons/mongodb.svg" id="icon"> 
-                            <img src="images/icons/mongodb.svg" id="icon">
-                            <img src="images/icons/sublime.png" id="icon"> -->
-                        </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <div class="link">
-                        <span>FULL-STACK</span>
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://theaustineats.herokuapp.com/">View App</a>
-
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://github.com/viviann224/AustinEats">GitHub</a>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/allerjeeves.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Aller-Jeeves</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Aller-Jeeves is a food application created to help alleviate the stress felt by individuals and families with dietary and/or allergy restrictions. 
-                    </div>
-                    <div id="technologies">
-                        <img src="images/icons/html5.svg" id="icon">
-                            <img src="images/icons/bootstrap.svg" id="icon"><img src="images/icons/javascript.png" id="icon"> 
-                            <img src="images/icons/jquery.svg" id="icon">
-                            <img src="images/icons/yummly.png" id="icon">
-                            <img src="images/icons/sql.png" id="icon">
-                            <!--<img src="images/icons/neutrino.png" id="icon"> 
-                            <img src="images/icons/photoshop.svg" id="icon"> 
-                            <img src="images/icons/heroku.png" id="icon">
-                            <img src="images/icons/mongodb.svg" id="icon"> -->
-                            <img src="images/icons/heroku.png" id="icon">
-                            <img src="images/icons/sublime.png" id="icon">
-                        </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <div class="link">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://allerjeeves.herokuapp.com/">View App</a> <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://github.com/viviann224/AllerJeeves">GitHub</a> 
-                        </div>
-                    </div>
-                </div>
-
-                 <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/cacheualcorner.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">CACHE-ual CORNER</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        A retro style chatting app that has a nostalgic feel and revamped to the modern day world. CACHE-ual Corner is a members only chatting system to discuss anything and everything!
-                    </div>
-                    <div id="technologies">
-
-                        <img src="images/icons/html5.svg" id="icon">
-                            <!-- <img src="images/icons/bootstrap.svg" id="icon"> -->
-                            <img src="images/icons/javascript.png" id="icon">  
-                            <!-- <img src="images/icons/react.svg" id="icon"> -->
-                            <img src="images/icons/photoshop.svg" id="icon">
-                            <img src="images/icons/heroku.png" id="icon">
-                            <img src="images/icons/mongodb.svg" id="icon"> 
-                            <img src="images/icons/sublime.png" id="icon">
-                        </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <div class="link">
-                        <span>FULL-STACK</span>
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://cacheualcorner.herokuapp.com">View App</a> 
-                        
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://github.com/viviann224/Cache-ual-Cornerv2">GitHub</a>
-
-                        </div>
-                        
-                    </div>
-                </div>
-                
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/reactingtonyt.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">REACT to the NYT</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        REACTing to all the best articles one SAVE at a time.
-                        React-based application of the New York Times Article Search where users can save and delete articles.
-                        
-                    </div>
-                    <div id="technologies">
-
-                        <img src="images/icons/html5.svg" id="icon">
-                            <img src="images/icons/bootstrap.svg" id="icon"><img src="images/icons/javascript.png" id="icon">  
-                            <img src="images/icons/react.svg" id="icon">
-                            <!--<img src="images/icons/photoshop.svg" id="icon">-->
-                            <img src="images/icons/heroku.png" id="icon">
-                            <img src="images/icons/mongodb.svg" id="icon"> 
-                            <img src="images/icons/sublime.png" id="icon">
-                        </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <div class="link">
-                        <span>FULL-STACK</span>
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://arcane-escarpment-87266.herokuapp.com/">View App</a> 
-                        
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://github.com/viviann224/reacttonyt">GitHub</a>
-
-                        </div>
-                        
-                    </div>
-                </div>
-
-                 
-
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/nytmongo.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">NYT Scraping TROLL.</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        An internet scraping web application which lets the user view and leave comments on the latest New York Times news. 
-                        
-                    </div>
-                    <div id="technologies">
-                        <img src="images/icons/html5.svg" id="icon">
-                            <img src="images/icons/bootstrap.svg" id="icon"><img src="images/icons/javascript.png" id="icon">  
-                            <img src="images/icons/jquery.svg" id="icon">
-                            <img src="images/icons/photoshop.svg" id="icon">
-                            <img src="images/icons/heroku.png" id="icon">
-                            <img src="images/icons/mongodb.svg" id="icon"> 
-                            <img src="images/icons/sublime.png" id="icon">
-                        </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <div class="link">
-                        <span>FULL-STACK</span>
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://scrapingaustin.herokuapp.com/">View App</a>
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://github.com/viviann224/NYTScrapingTROLL">GitHub</a>
-                        </div>
-                        
-                    </div>
-                </div>
-
-
-
-
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/FIND-A-FRIEND.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Social Austin</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        A social compatibility-based application for Austinites based on personality. 
-                    </div>
-                    <div id="technologies">
-                        <img src="images/icons/html5.svg" id="icon">
-                        <img src="images/icons/bootstrap.svg" id="icon">
-                            <img src="images/icons/javascript.png" id="icon"> 
-                            <img src="images/icons/jquery.svg" id="icon"> 
-                            <img src="images/icons/photoshop.svg" id="icon">
-                            <img src="images/icons/heroku.png" id="icon">
-                            <img src="images/icons/sublime.png" id="icon">
-                        </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <div class="link">
-                        <span>FULL-STACK</span>
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://still-stream-80716.herokuapp.com/survey">View App</a>
-
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://github.com/viviann224/Social-Austin">GitHub</a>
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src=" images/trivia.png" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">KEEP AUSTIN WEIRD Trivia</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        An application to test out their knowledge for famous Austin Landmarks.
-                    </div>
-                    <div id="technologies">
-                        <img src="images/icons/html5.svg" id="icon">
-                            <!-- <img src="images/icons/bootstrap.svg" id="icon"> -->
-                            <img src="images/icons/javascript.png" id="icon"> 
-                            <!-- <img src="images/icons/react.svg" id="icon"> -->
-                            <!-- <img src="images/icons/photoshop.svg" id="icon"> 
-                            <img src="images/icons/heroku.png" id="icon">
-                            <img src="images/icons/mongodb.svg" id="icon"> -->
-                            <!-- <img src="images/icons/mongodb.svg" id="icon"> -->
-                            <img src="images/icons/sublime.png" id="icon">
-                        </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <div class="link">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://viviann224.github.io/KeepAustinWeirdTrivia/">View App</a>
-
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://github.com/viviann224/KeepAustinWeirdTrivia">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                 
-
-
-                
-
-
-                
-
-                
-                
-
-
-
-            </div>
-            <footer class="mdl-mini-footer">
-
-                <div class="mdl-mini-footer__center-section">
-                    
-                     <div class="mdl-logo">&copy; Vivian Tuong Nguyen | <span>All rights reserved.</span></div>
-                </div>
-                <div class="mdl-mini-footer__right-section">
-                     <ul class="mdl-mini-footer__link-list">
-                        <li><a href="http://www.linkedin.com/in/viviantuongnguyen" alt="linkedIn"><img src="images/linkedinlogo.png" id="logo"></a></li>
-                        <li><a href="https://github.com/viviann224"><img src="images/githublogo.png" id="logo"></a></li>
-                        <li><a href="https://stackoverflow.com/users/9178040/vivian-nguyen" alt="stackoverflow"><img src="images/stackoverflowlogo.png" id="logo"></a></li>
-                    </ul>
-                    
-                </div>
-            </footer>
-        </main>
+      <header class="navbar navbar-light sticky-top flex-md-nowrap" id="top-nav">
+      <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      </header>
+<div class="container-fluid">
+  <div class="row">
+    <div id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+          <span><img src="./assets/img/aboutme-img-avatar.jpg" class="img-fluid d-flex justify-content-between align-items-center mt-0 ms-5 mb-3 text-muted nav-avatar border-4 border-dark shadow"></span>
+          <span id="mobile-header">Vivian Nguyen <img src="./assets/img/logo-32.png" class="img-fluid logo"></span>
+          <br><span id="availability">Available for work</span></br>
+        <h6 class="sidebar-heading d-flex justify-content-between align-items-center mt-1 mb-1 text-muted">
+        </h6>
+        <ul class="list-unstyled list-menu ms-5">
+            <li><a class="nav-link" href="#cover-area" data-scroll onclick="navToggle()"><strong>Home</strong></a></li>
+            <li><a class="nav-link" href="#about-area" data-scroll onclick="navToggle()">About</a></li>
+            <li><a class="nav-link" href="#services-area" data-scroll onclick="navToggle()">Services</a></li>
+            <li><a class="nav-link" href="#portfolio-area" data-scroll onclick="navToggle()">Portfolio</a></li>
+            <li><a class="nav-link" href="#contact-area" data-scroll onclick="navToggle()">Contact</a></li>
+          </ul>
+      <!-- </div> -->
     </div>
-    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-</body>
 
+    <main class="sections-wrapper  col-md-9 ms-sm-auto col-lg-10">
+      <!-- Home-->
+      <section class="home-area element-bg-cover particles-variant" id="cover-area">
+
+        <div class="container h-100 cover-area">
+          <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-12 col-lg-8 home-content text-center">
+              <h1 class="home-name">Vivian <span>Nguyen <img src="./assets/img/cover-logo.png" class="img-fluid cover-logo"></span></h1>
+              <h2 class="home-name clip home-headline">I’m a
+                <b class="is-visible"><span class="cd-words-wrapper single-headline txt-rotate" data-period="500"
+                data-rotate='[ "Developer.", "Designer.", "Teammate."]'>
+                </span></b>
+              </h2>
+            </div><a href="#about-area" data-scroll>
+              <div class="home-mouse">
+                <div class="mouse-shape">
+                  <div class="mouse-wheel"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="single-section alt-bg about-area gray-bg border-bottom border-top" >
+<div id="about-area" class="ms-4 me-3 pb-4 pt-4">
+            <div class="col-12">
+              <div class="section-heading">
+                <h2 class="section-title pt-3">About me</h2>
+                <p class="section-description">Get to know me</p>
+              </div>
+            </div>
+
+          <div class="row align-items-center">
+            <!-- Picture part-->
+            <div class="col-12 col-lg-5 about-img text-center">
+              <img class="img-fluid img-thumbnail mb-3 ms-3 mt-3 aboutme-img" src="assets/img/aboutme-img.jpg" alt="About Picture"></div>
+            <!-- Content part-->
+            <div class="col-12 col-lg-7 about-content ">
+              <div class="content-block">
+                <h6 class="blue-font">Who am I?</h6>
+                <h2 class="mb-3">I'm Vivian Nguyen, a Web Developer.</h2>
+                <div class=" gray-font">
+                  <p class="content-description">I am a Full-Stack developer in Austin, Texas, and I build and market websites. I am driven by data and analytics to create amazing online events. I am a liaison between my customers and the vision to create beautiful and meaningful products. Each product is unique and has intentions to keep user engagement. When I am not working on projects, I am mentoring and teaching others about web development. Don't know where to start? Let's work together.  I can worry about the product and brand alignment, while you can focus on content creation.
+</p>
+                </div>
+                <hr class="shadow">
+                <address class="content-info">
+                  <div class="row">
+                    <div class="col-12 col-md-6 mb-3"><span>Name:</span> Vivian Tuong Nguyen
+                    </div>
+                    <div class="col-12 col-md-6 mb-3 email-area"><span>Email:</span> <a href="mailto:viviantuongnguyen224@gmail.com" class="email">viviantuongnguyen224@gmail.com</a>
+                    </div>
+                  </div>
+                  <div class="row">
+
+                    <div class="col-12 col-md-6 mb-3"><span>Location:</span> Austin, TX
+                    </div>
+                    <div class="col-12 col-md-6 mb-3"><a class="hoverbtn btn-sm rounded-pill shadow" data-scroll="" href="#portfolio-area" role="button">My Work</a>
+                      <a class="hoverbtn btn-sm rounded-pill shadow" data-scroll="" href="https://www.linkedin.com/in/viviantuongnguyen/"  target="_blank" role="button">Linked In</a>
+                    </div>
+                  </div>
+                </address>
+              </div>
+            </div>
+          </div>
+  </div>
+      </section>
+
+      <!-- Services-->
+      <section class="single-section  services-area  " id="bg-light">
+        <div class="container pt-5 pb-5" id="services-area">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-heading ">
+                <h2 class="section-title">My Services</h2>
+                <p class="section-description mb-3">How I can help you</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Single service-->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="service-card shadow">
+                <i class="fas fa-desktop footer-icon fa-2x"></i>
+                <h5>Web Development</h5>
+                <p>As a full-stack developer, I can develop beautiful MERN applications and hone in on the frontend or backend.</p>
+              </div>
+            </div>
+            <!-- Single service-->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="service-card shadow">
+                <i class="fas fa-expand-arrows-alt footer-icon fa-2x"></i>
+                <h5>Responsivness</h5>
+                <p>I focus on a product that is clean and mobile responsive.</p>
+              </div>
+            </div>
+
+            <!-- Single service-->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="service-card shadow">
+                <i class="fas fa-hands-helping footer-icon fa-2x"></i>
+                <h5>Customer Support</h5>
+                <p>Not too sure how to translate what you want? I am a great liaison to get you closer to your final product.</p>
+              </div>
+            </div>
+
+            <!-- Single service-->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="service-card shadow">
+                <i class="fas fa-paint-brush footer-icon fa-2x"></i>
+                <h5>Design</h5>
+                <p>I want to fine-tune your brand with purpose. Every design concept focuses on different intentions.</p>
+              </div>
+            </div>
+            <!-- Single service-->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="service-card shadow">
+                <i class="fas fa-comments-dollar footer-icon fa-2x"></i>
+                <h5>Marketing</h5>
+                <p>I drive the marketing strategy by data to determine how to promote your product.</p>
+              </div>
+            </div>
+            <!-- Single service-->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="service-card shadow">
+                <i class="fas fa-images footer-icon fa-2x"></i>
+                <h5>Photo Editor</h5>
+                <p>Graphics for a product can be confusing. Just send me photos, and I can do the rest.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!-- work with me -->
+        <section class="single-section element-bg-work shadow" id="worktogether-area" >
+          <div class="container-fluid pt-4 pb-4">
+              <div class="row">
+                <div class="col-12 col-md-8 content-part  ">
+                <h1 class="hire-title"><h1>Let's work together!</h1>
+                  <p class="worktogether-desc ">I am available for projects. Hire me and get your job done.</p>
+                  <p><br><a class=" hoverbtn rounded-pill btn-lg shadow btn-outline-secondary border" data-scroll="" href="#contact-area" role="button">Hire me</a></p>
+                </div>
+
+            </div>
+          </section>
+
+          <!-- Portfolio-->
+          <section class="single-section portfolio-area pb-4 pt-4 border-bottom border-top" id="portfolio-area">
+          <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading ms-3">
+                    <h2>Portfolio</h2>
+                    <p>Hover and click on "learn more" to see my work in motion</p>
+                  </div>
+                </div>
+              </div>
+             <div class="row projects ms-3 me-3 ">
+             </div>
+            <div class="row modalArea"></div>
+          </div>
+          </section>
+          <!-- Contact-->
+          <section class="contact-area alt-bg gray-bg pt-4 pb-4 " id="contact-area">
+            <div class="container gray-bg">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <h2 class="section-title">Get in Touch</h2>
+
+                    <p class="section-description">Feel free to contact me anytime</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row contact-info mb-3">
+                  <div class="col-12 col-sm-4 text-center">
+                  <div class="single-info  text-center"><i class="info-icon icon ion-md-map"></i>
+                    <p class="info-content">
+                      <i class="footer-icon  fas fa-user fa-2x "></i>
+                       <br><h5>Vivian Nguyen</h5>
+                       Software Developer
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                <div class="single-info  text-center"><i class="info-icon icon ion-md-map"></i>
+                  <p class="info-content">
+                    <i class="footer-icon  fas fa-map-marker-alt fa-2x "></i>
+                    <br><h5>Location</h5>
+                    Austin, Texas
+                  </p>
+                </div>
+              </div>
+
+                <div class="col-12 col-sm-4 text-center">
+                  <div class="single-info"><i class="info-icon icon ion-md-call"></i>
+                    <p class="info-content">
+
+                      <i class="footer-icon fas fa-paper-plane fa-2x "></i>
+                      <br><h5>Email</h5>
+                      viviantuongnguyen224@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                  <div class="single-info"><i class=" info-icon icon ion-md-send"></i>
+                    <p class="info-content"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="row ">
+                <!-- Contact form-->
+                <div class="col-12">
+                  <form class="contact-form" id="contact-form" action="php/contact.php">
+                    <div class="row">
+                      <div class="col-12 col-md-6 form-group mb-2"><input class="form-control" id="contact-name" type="text" name="name" placeholder="Name" required=""></div>
+                      <div class="col-12 col-md-6 form-group mb-2"><input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required=""></div>
+                      <div class="col-12 form-group mb-2"><input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Subject" required=""></div>
+                      <div class="col-12 form-group form-message mb-2"><textarea class="form-control" id="contact-message" name="message" placeholder="Message" rows="5" required=""></textarea></div>
+                      <div class="col-12 form-submit mb-2"><button class="btn btn-outline-secondary bg-light border" id="contact-submit" type="submit">Send message</button>
+                        <p class="contact-feedback"></p>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Footer-->
+          <footer class="footer-area shadow-down ">
+            <div class="container">
+              <div class="row mini-footer">
+                <p class="copyright col-12 col-lg-9"> © 2021 Vivian Tuong Nguyen.</p>
+                <p class="social-medias col-12 col-lg-3 text-right">
+                  <a class="hoverbtn btn-dark shadow btn-sm " href="#"><i class="fab fa-instagram"></i></a>
+                  <a class="hoverbtn btn-dark shadow btn-sm" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="hoverbtn btn-dark btn-sm shadow" href="#"><i class="fab fa-github-alt"></i></a>
+                    </p>
+              </div>
+            </div>
+          </footer>
+    </main>
+  </div>
+</div>
+
+      <!--end of wrapper -->
+    </div>
+    <!--end of row -->
+  </div>
+    </div>
+  </div>
+
+      <!--JS files-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      <script src="./assets/js/portfolio.js" ></script>
+      <script src="./assets/js/animation.js" ></script>
+   </body>
 </html>
