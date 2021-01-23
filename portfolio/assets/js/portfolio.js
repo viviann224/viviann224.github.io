@@ -228,7 +228,7 @@ function makeModal(){
     li3.innerHTML="<span>Tech</span> "+project[projNum].tech;
     let a3 = document.createElement("a");
     let btn2 = document.createElement("button");
-    btn2.setAttribute("class","btn btn-primary info hovereffect");
+    btn2.setAttribute("class","hoverbtn btn-secondary info hovereffect border btn-primary");
     btn2.textContent="Visit Project";
     a3.setAttribute("href",project[projNum].url)
 
@@ -248,7 +248,7 @@ function makeModal(){
       if(project[projNum].git){
         let a4 = document.createElement("a");
         let btn3 = document.createElement("button");
-        btn3.setAttribute("class","btn btn-primary info hovereffect");
+        btn3.setAttribute("class","hoverbtn btn-secondary info hovereffect border btn-primary ");
         btn3.textContent="View Code";
         a4.setAttribute("href",project[projNum].git);
         d12.appendChild(a4);

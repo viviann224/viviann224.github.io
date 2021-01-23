@@ -41,7 +41,28 @@ hr{
 	width:90%;
 	text-align: center;
 }
+.modalbtn{
 
+}
+.hoverbtn {
+	border:1px;
+  background-color: #607d8b;
+  border: none;
+  color: white;
+  padding: .5em;
+  text-align: center;
+	font-weight: 500;
+  /* font-size: 16px; */
+	text-decoration: none;
+  /* margin: 4px 2px; */
+  opacity: 1;
+  transition: 0.3s;
+	margin:.5em;
+}
+
+.hoverbtn:hover {
+	 color:white;
+	opacity: 0.6}
 /*about*/
 #about-area {
 
@@ -305,4 +326,10 @@ footer
 {
 	padding: 2em 0;
 	background-color: #607d8b;
+}
+
+.copyright{
+	color:white;
+	font-weight: 400;
+
 }
