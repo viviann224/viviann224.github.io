@@ -217,15 +217,15 @@ function makeModal(){
     let ul = document.createElement("ul");
     let li1 = document.createElement("li");
     li1.setAttribute("class","info-facts")
-    li1.innerHTML="<span>Position</span> "+project[projNum].position;
+    li1.innerHTML="<span id='position-modal'>Position:</span> "+project[projNum].position;
 
     let li2 = document.createElement("li");
     li2.setAttribute("class","info-facts")
-    li2.innerHTML="<span>Date</span> "+project[projNum].date;
+    li2.innerHTML="<span  id='date-modal'>Date:</span> "+project[projNum].date;
 
     let li3 = document.createElement("li");
     li3.setAttribute("class","info-facts")
-    li3.innerHTML="<span>Tech</span> "+project[projNum].tech;
+    li3.innerHTML="<br><span>Tech:</span> "+project[projNum].tech;
     let a3 = document.createElement("a");
     let btn2 = document.createElement("button");
     btn2.setAttribute("class","hoverbtn btn-secondary info hovereffect border btn-primary");
