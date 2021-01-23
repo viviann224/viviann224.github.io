@@ -14,24 +14,24 @@ const project=[
     name: "abr",
     carousel:"abrcarousel",
     appName: "Austin Bulldog Rescue",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut sapiente quo explicabo, quasi incidunt aperiam laudantium, nemo cum eaque inventore ut voluptas voluptatibus nihil! Amet soluta, ea illo sint?",
+    desc: "Austin Bulldog Rescue, ABR, connects fosters and potential adopters to rescue dogs. The ABR went from a small rescue of 20 to 200 dogs in a year. From then, the website scaled up to meet the new needs. The site is a WordPress hosted site written in PHP and Javascript with a MySQL database.",
     date: "Blah",
     url:"https://austinbulldogrescue.com/",
-    tech: "PHP",
+    tech: "PHP, Javascript, CSS, HTML, PhotoShop",
     position: "Front-end Developer",
     date: "2020"
   },
   {
     icons:["fa-php", "fa-html5","fa-css3"],
-    img:["pawit-1.jpg","pawit-2.jpg","pawit-3.jpg","pawit-4.jpg"],
+    img:["pawit-1.jpg","pawit-2.jpg","pawit-3.jpg","pawit-4.jpg", "abr-pawit-social-1.jpg","abr-pawit-social-2.jpg"],
     modalName:"pawitModal",
     name: "pawit",
     carousel:"pawitcarousel",
     appName: "PAW IT FORWARD",
-    desc: "over 50 donors, over $2,000, and the event is still ongoing",
+    desc: "Paw It Forward is an ongoing online event where donors donate a custom amount to be featured on the page and social media. The event currently has over 50 donors and over $2,000 in funds.  The event ran via the site and social media. From the event, the donations from October doubled. Written in CSS and HTML and uses a MySQL database.",
     date: "2020",
     url:"https://austinbulldogrescue.com/paw-it-forward/",
-    tech: "PHP",
+    tech: "PHP, Javascript, CSS, HTML, PhotoShop",
     position: "Front-end Developer",
     date: "2020"
   },
@@ -42,26 +42,11 @@ const project=[
     name: "shower",
     carousel:"showercarousel",
     appName: "Virtual Baby Shower",
-    desc: "Over $1,200 & continous care for of supplies ($250/ week) of supplies. on going event",
+    desc: "Bella's Virtual Baby Shower raised over $1,800 and continuous care ($250/week) for supplies. The ongoing event contains information about 12 rescue puppies. Written in CSS and HTML and uses a MySQL database.",
     date: "2020",
     url:"https://austinbulldogrescue.com/bellas-virtual-baby-shower/",
-    tech: "PHP",
+    tech: "PHP, Javascript, CSS, HTML, PhotoShop",
     position: "Front-end Developer",
-    date: "2020"
-  },
-  {
-    icons:["fa-react", "fa-html5","fa-css3"],
-    img:["abrresource-1.jpg","abrresource-2.jpg"],
-    modalName:"resource",
-    name: "resource",
-    carousel:"resourcecarousel",
-    appName: "Austin Bulldog Resources",
-    desc: "Over $1,200 & continous care for of supplies ($250/ week) of supplies. on going event",
-    date: "2020",
-    url:"https://austinbulldogrescue.herokuapp.com/",
-    git:"https://github.com/viviann224/abrcuddlypups",
-    tech: "React",
-    position: "React Developer",
     date: "2020"
   },
   {
@@ -71,11 +56,10 @@ const project=[
     name: "resource",
     carousel:"allerjeevescarousel",
     appName: "Aller-Jeeves",
-    desc: "Over $1,200 & continous care for of supplies ($250/ week) of supplies. on going event",
-    date: "2020",
+    desc: "Aller-Jeeves is an application that filters out recipes by dietary and allergen restrictions. The application is a nonmember and member application that bookmarks users' recipes. The recipes pull from the Edamam API. Written in HTML, jQuery, CSS, MySQL, NodeJs, and Express.",
     url:"https://allerjeeves.herokuapp.com/",
     git:"https://github.com/viviann224/AllerJeeves",
-    tech: "NodeJS",
+    tech: "NodeJS, Express, JQuery, CSS, MySQL",
     position: "Full Stack Developer",
     date: "2020"
   },
@@ -86,14 +70,29 @@ const project=[
     name: "austineats",
     carousel:"austineatscarousel",
     appName: "Austin Eats",
-    desc: "Over $1,200 & continous care for of supplies ($250/ week) of supplies. on going event",
+    desc: "AustinEats is a food application created to share information, personal experience, or tips at Restaurants in the Austin location. The application began as a way to document nearby restaurants and alleviate time to make quick decisions on what to eat. Written in HTML, PHP, Laravel, Bootstrap, CSS, and MySQL.",
     date: "2020",
-    url:"https://allerjeeves.herokuapp.com/",
-    git:"https://github.com/viviann224/AllerJeeves",
-    tech: "PHP",
+    url:"http://theaustineats.herokuapp.com/",
+    git:"https://github.com/viviann224/AustinEats",
+    tech: "PHP, Laravel, HTML, Bootstrap, CSS, and MySQL",
     position: "Full Stack Developer",
     date: "2020"
   },
+  {
+    icons:["fa-react", "fa-html5","fa-css3"],
+    img:["abrresource-1.jpg","abrresource-2.jpg"],
+    modalName:"resource",
+    name: "resource",
+    carousel:"resourcecarousel",
+    appName: "Austin Bulldog Resources",
+    desc: "Austin Bulldog Rescue Resources is an application that internet scrapes each Cuddly dog to help the Austin Bulldog Rescue. The application contains different donation fields to encourage users to help the rescue with medical and maintenance expenses. Written in React, Bootstrap,  and CSS.",
+    date: "2020",
+    url:"https://austinbulldogrescue.herokuapp.com/",
+    git:"https://github.com/viviann224/abrcuddlypups",
+    tech: "React, Boostrap, CSS",
+    position: "React Developer",
+    date: "2020"
+  }
 
 ];
 
@@ -222,11 +221,11 @@ function makeModal(){
 
     let li2 = document.createElement("li");
     li2.setAttribute("class","info-facts")
-    li2.innerHTML="<span>Tech</span> "+project[projNum].tech;
+    li2.innerHTML="<span>Date</span> "+project[projNum].date;
 
     let li3 = document.createElement("li");
     li3.setAttribute("class","info-facts")
-    li3.innerHTML="<span>Date</span> "+project[projNum].date;
+    li3.innerHTML="<span>Tech</span> "+project[projNum].tech;
     let a3 = document.createElement("a");
     let btn2 = document.createElement("button");
     btn2.setAttribute("class","btn btn-primary info hovereffect");
