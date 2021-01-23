@@ -113,6 +113,7 @@ white-space: nowrap;
 {
   background-color: #555;
   opacity: 0.5;
+	margin:0em;
 }
 .modal-header{
  border-bottom:0px;
@@ -223,8 +224,8 @@ ul li{
 span{
   color: #444;
   font-weight: 600;
-  margin-right: 2em;
-  margin-left:1em;
+  /* margin-right: 2em;
+  margin-left:1em; */
 }
 /*.info-facts{
   width:50%;
