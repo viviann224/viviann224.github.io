@@ -92,6 +92,19 @@ height:0em;
   margin-top:.4em;
 
 }
+
+@media (max-width: 1546px) {
+  .nav-avatar{
+    width:80%;
+    margin-left:1.2em  !important;
+  }
+  #card-hover, #card-desc{
+    margin-bottom:0em !important;
+    font-size: 1em !important;
+  }
+
+}
+
 @media (max-width: 1024px) {
   .cover-logo{
     height: 30px;
