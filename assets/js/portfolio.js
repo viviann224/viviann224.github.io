@@ -57,7 +57,7 @@ const project=[
     carousel:"allerjeevescarousel",
     appName: "Aller-Jeeves",
     desc: "Aller-Jeeves is an application that filters out recipes by dietary and allergen restrictions. The application is a nonmember and member application that bookmarks users' recipes. The recipes pull from the Edamam API. Written in HTML, jQuery, CSS, MySQL, NodeJs, and Express.",
-    url:"https://allerjeeves.herokuapp.com/",
+    url:"https://allerjeevestest.herokuapp.com/",
     git:"https://github.com/viviann224/AllerJeeves",
     tech: "NodeJS, Express, JQuery, CSS, MySQL",
     position: "Full Stack Developer",
